@@ -28,6 +28,7 @@ jobs:
           jmeter/bin/jmeter -n \
             -t tests/load_test.jmx \
             -l results/results.jtl \
+            -Jcsvpath=test_data.csv \
             -e -o reports/
 
       - name: Upload HTML Report as Artifact
