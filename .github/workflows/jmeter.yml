@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 jobs:
-  performance_tests:
+  performance-test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
